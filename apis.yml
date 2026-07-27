@@ -1,8 +1,24 @@
 aid: gan-and-lee-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gan-and-lee-pharmaceuticals.png
 name: Gan & Lee Pharmaceuticals
-description: 'Gan & Lee Pharmaceuticals is a company surfaced as a portfolio company of qiming and added
-  to the API Evangelist network as a stub for enrichment. Sector: pharmaceuticals. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Gan & Lee Pharmaceuticals (Shanghai Stock Exchange: 603087) is a Chinese biopharmaceutical
+  company founded in 1998, specializing in the research, development, production, and commercialization
+  of recombinant insulin analogs and injection devices for diabetes care, alongside a growing oncology
+  pipeline and medical devices. Its products, including insulin glargine injections and prefilled pen
+  injectors, are marketed across 23 countries with 19 products launched globally and clinical trials
+  running in 10 countries. Gan & Lee does not currently publish a public developer API, SDK, or developer
+  portal; this API Evangelist profile tracks the company''s public web presence and domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/gan-and-lee-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Pharmaceuticals
+- Diabetes
+- Insulin
+- Oncology
+- Biotechnology
+- Medical Devices
+- Healthcare
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gan-and-lee-pharmaceuticals-domain-security.yml
 - type: Website
   url: https://ganlee.com
+- type: Support
+  url: https://ganlee.com/contact.html
+- type: PrivacyPolicy
+  url: https://ganlee.com/privacy.html
+- type: TermsOfService
+  url: https://ganlee.com/statement.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
